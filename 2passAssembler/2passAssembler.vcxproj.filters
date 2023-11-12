@@ -21,6 +21,9 @@
     <ClCompile Include="step2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="step3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample.txt">
