@@ -1,2 +1,3 @@
-﻿  step1.cpp
+﻿  step1.c
+C:\Users\Seulgi Baek\source\repos\2passAssembler\2passAssembler\step1.c(17,14): warning C4013: 'tokenCnt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   2passAssembler.vcxproj -> C:\Users\Seulgi Baek\source\repos\2passAssembler\x64\Debug\2passAssembler.exe
