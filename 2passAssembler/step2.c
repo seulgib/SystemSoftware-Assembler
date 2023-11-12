@@ -1,3 +1,4 @@
+//토큰화한 낱말을 alphabet, number, other로 구분해 개수 출력
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

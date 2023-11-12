@@ -21,12 +21,18 @@
     <ClCompile Include="step2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="step3.cpp">
+    <ClCompile Include="step3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="step4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="numb.txt">
       <Filter>소스 파일</Filter>
     </Text>
   </ItemGroup>

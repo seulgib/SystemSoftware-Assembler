@@ -1,3 +1,4 @@
+//label, instruction, operand를 구분해 출력
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -28,7 +29,7 @@ int main(void) {
         else if (num == 10) {
             printf("\n");
             num = 0;
-            i -= 1;
+            i -= 1;//공백 출력은 symbol출력에서 제외해야하므로
         }
     }
     num = 0;
@@ -67,7 +68,7 @@ void tokenCnt(char* bp) {
     char* result = strtok(bp, " \t\n");
     while (result != NULL) {
         while (1) {
-            if (n < 4) {
+            if (n < 4) {//line(0), label(1), instruction(2), operand(3)
                 switch (n) {
                 case 0:n++;
                     break;

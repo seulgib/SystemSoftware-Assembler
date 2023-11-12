@@ -133,9 +133,13 @@
     <ClCompile Include="step2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="step3.cpp" />
+    <ClCompile Include="step3.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="step4.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="numb.txt" />
     <Text Include="sample.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

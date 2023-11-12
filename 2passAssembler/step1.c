@@ -1,3 +1,4 @@
+//어셈블리어 입력받아 token화 후 개수 return
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
