@@ -27,12 +27,24 @@
     <ClCompile Include="step4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="step5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="step6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample.txt">
       <Filter>소스 파일</Filter>
     </Text>
     <Text Include="numb.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\words.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\command.txt">
       <Filter>소스 파일</Filter>
     </Text>
   </ItemGroup>

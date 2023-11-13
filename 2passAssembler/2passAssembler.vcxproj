@@ -136,9 +136,17 @@
     <ClCompile Include="step3.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="step4.c" />
+    <ClCompile Include="step4.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="step5.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="step6.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\command.txt" />
+    <Text Include="..\..\..\..\Downloads\words.txt" />
     <Text Include="numb.txt" />
     <Text Include="sample.txt" />
   </ItemGroup>
