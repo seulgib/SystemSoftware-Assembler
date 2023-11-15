@@ -33,6 +33,21 @@
     <ClCompile Include="step6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2passAssembler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pass1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="haha.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample.txt">
@@ -45,6 +60,12 @@
       <Filter>소스 파일</Filter>
     </Text>
     <Text Include="..\..\..\..\Downloads\command.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="srcfile.txt">
       <Filter>소스 파일</Filter>
     </Text>
   </ItemGroup>
