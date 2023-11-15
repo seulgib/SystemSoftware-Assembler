@@ -68,5 +68,8 @@
     <Text Include="srcfile.txt">
       <Filter>소스 파일</Filter>
     </Text>
+    <Text Include="symtab.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

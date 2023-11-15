@@ -1,1 +1,5 @@
-﻿  2passAssembler.vcxproj -> C:\Users\Seulgi Baek\source\repos\2passAssembler\x64\Debug\2passAssembler.exe
+﻿  pass1.c
+  test.cpp
+C:\Users\Seulgi Baek\source\repos\2passAssembler\2passAssembler\test.cpp(180,90): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seulgi Baek\source\repos\2passAssembler\2passAssembler\test.cpp(249): warning C4715: 'writeFile': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  2passAssembler.vcxproj -> C:\Users\Seulgi Baek\source\repos\2passAssembler\x64\Debug\2passAssembler.exe
